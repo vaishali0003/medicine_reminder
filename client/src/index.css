@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR CSS */
+
+.navbar {
+  background-color: #475ea7;
+  min-height: 7vh;
+  display: flex;
+  align-items: center;
+}
+
+.nav_text {
+  position: absolute;
+  left: 20px;
+  font-size: 20px;
+}
+
+.main_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vmin;
+  border: 2px solid;
+  margin-top: 2rem;
+  position: relative;
+  border: none;
+  box-shadow: 0 0 2px;
+}
+
+.add_btn_icon {
+  width: 44px;
+  bottom: -2px;
+  right: -20px;
+  position: absolute;
+  filter: invert(156%);
+}
+
+.m_cp2 {
+  padding: 1rem;
+  background-color: #7f99ca;
+}
+
+.dtimearea,
+.txtarea {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.dtimearea {
+  margin: 0.6rem 0;
+}
+
+.m_cp3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.m_cp3 {
+  width: 100%;
+}
+
+.add_rem {
+  width: 100%;
+  padding: 0.9rem;
+  cursor: pointer;
+}
+
+
+/* REMINDER CARD CSS */
+.reminder_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sec_card {
+  position: relative;
+  border: 2px solid;
+  margin: 0 1rem;
+  margin-top: 1.6rem;
+  width: 39vmin;
+  border: none;
+}
+
+.sec_card_alt1{
+  background-color: #6382bed1;
+}
+
+.sec_card_alt2{
+  background-color: #888c95ad;
+}
+
+.pending_icon,.reminded_icon{
+  position: absolute;
+  right: -10px;
+  top: -8px;
+  width: 33px;
+}
+
+.sec_card1 {
+  padding: 0.7rem;
+}
+
+.s_cp4 {
+  width: 100%;
+}
+
+.delete_btn {
+  width: 100%;
+  padding: 0.4rem;
+  background-color: #979696;
+  border: none;
+  position: absolute;
+}
